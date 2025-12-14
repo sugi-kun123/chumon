@@ -30,7 +30,7 @@ export default function HistoryPage() {
   return (
     <main className="flex min-h-screen w-full max-w-4xl flex-col items-center py-20 px-8 mx-auto bg-white dark:bg-black">
       <div className="w-full flex justify-between items-center mb-10">
-        <h1 className="text-3xl font-bold">過去のTODO一覧</h1>
+        <h1 className="text-3xl font-bold">📜 過去のTODO一覧</h1>
         <Link href="/" className="text-blue-500 hover:underline">
           ← 今日のTODOに戻る
         </Link>
