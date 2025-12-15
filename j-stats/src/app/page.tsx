@@ -16,7 +16,7 @@ export default function Home() {
     const filtered = teams.filter((team) => {
       const matchesSearch =
         team.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        team.hometown.toLowerCase().includes(searchTerm.toLowerCase());
+        team.stadium.toLowerCase().includes(searchTerm.toLowerCase());
 
       const latestCategory = team.stats[0]?.category;
       const matchesCategory = filterCategory === "All" || latestCategory === filterCategory;
@@ -47,7 +47,7 @@ export default function Home() {
     <main className="p-8 max-w-6xl mx-auto min-h-screen">
       <h1 className="text-3xl font-bold mb-4">J-Stats: チーム一覧</h1>
       <p className="text-gray-500 mb-8">
-        J1-3に所属するチームのリーグ成績を年度別にまとめています。
+        J1~J3に所属するチームのリーグ成績を年度別にまとめています。クリックまたはタップして各チームの詳細を確認できます。
       </p>
 
       <div className="flex flex-col md:flex-row gap-4 mb-8">
@@ -88,7 +88,7 @@ export default function Home() {
                   style={{ backgroundColor: team.color }}
                 />
                 <h2 className="text-xl font-bold mb-1">{team.name}</h2>
-                <p className="text-gray-400 text-xs mb-4">{team.hometown}</p>
+                <p className="text-gray-400 text-xs mb-4">{team.stadium}</p>
 
                 <div className="mt-auto pt-4 border-t border-gray-50 dark:border-zinc-800">
                   <div className="flex justify-between items-center text-sm">

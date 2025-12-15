@@ -1,6 +1,7 @@
 import teamsData from "@/data/teams.json";
 import { Team } from "@/types/team";
 import Link from "next/link";
+import TeamStandingChart from "@/components/TeamStandingChart";
 import { notFound } from "next/navigation";
 
 export default async function TeamDetailPage({ params }: { params: Promise<{ id: string }> }) {
@@ -9,13 +10,15 @@ export default async function TeamDetailPage({ params }: { params: Promise<{ id:
 
   const team = (teamsData as Team[]).find((t) => t.id === id);
 
+
   if (!team) notFound();
 
   return (
     <div className="p-8 max-w-4xl mx-auto">
       <Link href="/" className="text-blue-500 hover:underline">← 一覧に戻る</Link>
       <h1 className="text-4xl font-bold mt-4">{team.name}</h1>
-      <p className="text-gray-500 mb-4">創設: {team.since}年 | 本拠地: {team.hometown}</p>
+      <h5 className="text-lg font-semibold">監督: {team.coach}</h5>
+      <p className="text-gray-500 mb-4">創設: {team.since}年 | 本拠地: {team.stadium}</p>
       <div
         className="w-full h-2 mb-4 rounded-full"
         style={{ backgroundColor: team.color }}
@@ -47,6 +50,7 @@ export default async function TeamDetailPage({ params }: { params: Promise<{ id:
           ))}
         </tbody>
       </table>
+      <TeamStandingChart stats={team.stats} teamColor={team.color} />
     </div>
   );
 }

@@ -11,7 +11,8 @@ export interface SeasonStats {
 export interface Team {
   id: string;
   name: string;
-  hometown: string;
+  stadium: string;
+  coach: string;
   color: string;
   logo: string;
   since: number;
