@@ -3,114 +3,1216 @@
     "id": "kawasaki-frontale",
     "name": "川崎フロンターレ",
     "hometown": "神奈川県川崎市",
+    "color": "#38a1db",
+    "logo": "/logos/kawasaki-frontale.png",
+    "since": 1955,
     "stats": [
-      { "year": 2023, "rank": 8, "win": 14, "draw": 8, "loss": 12 },
-      { "year": 2022, "rank": 2, "win": 20, "draw": 6, "loss": 8 },
-      { "year": 2017, "rank": 1, "win": 21, "draw": 9, "loss": 4 }
+      { "year": 2025, "category": "J1", "rank": 8, "win": 15, "draw": 11, "loss": 12 },
+      { "year": 2024, "category": "J1", "rank": 8, "win": 13, "draw": 13, "loss": 12 },
+      { "year": 2023, "category": "J1", "rank": 8, "win": 14, "draw": 8, "loss": 12 },
+      { "year": 2022, "category": "J1", "rank": 2, "win": 20, "draw": 6, "loss": 8 },
+      { "year": 2021, "category": "J1", "rank": 1, "win": 28, "draw": 8, "loss": 2 },
+      { "year": 2020, "category": "J1", "rank": 1, "win": 26, "draw": 5, "loss": 3 },
+      { "year": 2019, "category": "J1", "rank": 4, "win": 16, "draw": 12, "loss": 6 },
+      { "year": 2018, "category": "J1", "rank": 1, "win": 21, "draw": 6, "loss": 7 },
+      { "year": 2017, "category": "J1", "rank": 1, "win": 21, "draw": 9, "loss": 4 }
     ]
   },
   {
     "id": "yokohama-f-marinos",
-    "name": "横浜F・マリノス",
+    "name": "横浜Ｆ・マリノス",
+    "hometown": "神奈川県横浜市、横須賀市、大和市",
+    "color": "#004098",
+    "logo": "/logos/yokohama-f-marinos.png",
+    "since": 1972,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 15, "win": 15, "draw": 11, "loss": 12 },
+      { "year": 2024, "category": "J1", "rank": 9, "win": 15, "draw": 7, "loss": 16 },
+      { "year": 2023, "category": "J1", "rank": 2, "win": 19, "draw": 7, "loss": 8 },
+      { "year": 2022, "category": "J1", "rank": 1, "win": 20, "draw": 8, "loss": 6 },
+      { "year": 2021, "category": "J1", "rank": 2, "win": 24, "draw": 7, "loss": 7 },
+      { "year": 2020,	"category":	"J1",	"rank": 9, "win":	14, "draw":	5, "loss":	15 },
+      { "year": 2019, "category": "J1", "rank": 1, "win": 22, "draw": 4, "loss": 8 },
+      { "year": 2018, "category": "J1", "rank": 12, "win": 12, "draw": 5, "loss": 17 },
+      { "year": 2017, "category": "J1", "rank": 5, "win": 17, "draw": 9, "loss": 8 }
+    ]
+  },
+  {
+    "id": "yokohama-fc",
+    "name": "横浜ＦＣ",
+    "hometown": "神奈川県横浜市",
+    "color": "#00a0e9",
+    "logo": "/logos/yokohama-fc.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 18, "win": 9, "draw": 8, "loss": 21 },
+      { "year": 2024, "category": "J2", "rank": 2, "win": 22, "draw": 10, "loss": 6 },
+      { "year": 2023, "category": "J1", "rank": 18, "win": 7, "draw": 8, "loss": 19 },
+      { "year": 2022, "category": "J2", "rank": 2, "win": 23, "draw": 11, "loss": 8 },
+      { "year": 2021, "category": "J1", "rank": 20, "win": 6, "draw": 9, "loss": 23 },
+      { "year": 2020, "category": "J1", "rank": 15, "win": 9, "draw": 6, "loss": 19 },
+      { "year": 2019, "category": "J2", "rank": 2, "win": 23, "draw": 10, "loss": 9 },
+      { "year": 2018, "category": "J2", "rank": 3, "win": 21, "draw": 13, "loss": 8 },
+      { "year": 2017, "category": "J2", "rank": 10, "win": 17, "draw": 12, "loss": 13 }
+    ]
   },
   {
     "id": "gamba-osaka",
     "name": "ガンバ大阪",
+    "hometown": "大阪府吹田市、茨木市、高槻市、豊中市、池田市、摂津市、箕面市",
+    "color": "#00458d",
+    "logo": "/logos/gamba-osaka.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 9, "win": 17, "draw": 6, "loss": 15 },
+      { "year": 2024, "category": "J1", "rank": 4, "win": 18, "draw": 12, "loss": 8 },
+      { "year": 2023, "category": "J1", "rank": 16, "win": 9, "draw": 7, "loss": 18 },
+      { "year": 2022, "category": "J1", "rank": 15, "win": 9, "draw": 10, "loss": 15 },
+      { "year": 2021, "category": "J1", "rank": 13, "win": 12, "draw": 8, "loss": 18 },
+      { "year": 2020, "category": "J1", "rank": 2, "win": 20, "draw": 5, "loss": 9 },
+      { "year": 2019, "category": "J1", "rank": 7, "win": 12, "draw": 11, "loss": 11 },
+      { "year": 2018, "category": "J1", "rank": 9, "win": 14, "draw": 6, "loss": 14 },
+      { "year": 2017, "category": "J1", "rank": 10, "win": 11, "draw": 10, "loss": 13 }
+    ]
   },
   {
     "id": "cerezo-osaka",
     "name": "セレッソ大阪",
+    "hometown": "aaaaaaaaa",
+    "color": "#da005c",
+    "logo": "/logos/.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
   },
   {
     "id": "nagoya-grampus",
     "name": "名古屋グランパス",
+    "hometown": "aaaaaaaaa",
+    "color": "#e6002d",
+    "logo": "/logos/.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
   },
   {
     "id": "sanfrecce-hiroshima",
     "name": "サンフレッチェ広島",
+    "hometown": "aaaaaaaaa",
+    "color": "#51318f",
+    "logo": "/logos/.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
   },
   {
     "id": "kashima-antlers",
     "name": "鹿島アントラーズ",
+    "hometown": "aaaaaaaaa",
+    "color": "#b8193f",
+    "logo": "/logos/kashima-antlers.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
   },
   {
     "id": "fc-tokyo",
     "name": "FC東京",
+    "hometown": "aaaaaaaaa",
+    "color": "#11216c",
+    "logo": "/logos/fc-tokyo.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
+  },
+  {
+    "id": "tokyo-verdy",
+    "name": "東京ヴェルディ",
+    "hometown": "aaaaaaaaa",
+    "color": "#006d30",
+    "logo": "/logos/.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
+  },
+  {
+    "id": "fc-machida-zelvia",
+    "name": "ＦＣ町田ゼルビア",
+    "hometown": "aaaaaaaaa",
+    "color": "#0054a7",
+    "logo": "/logos/fc-machida-zelvia.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
   },
   {
     "id": "shimizu-s-pulse",
     "name": "清水エスパルス",
+    "hometown": "aaaaaaaaa",
+    "color": "#f18900",
+    "logo": "/logos/.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
+  },
+  {
+    "id": "nagoya-grampus",
+    "name": "名古屋グランパス",
+    "hometown": "aaaaaaaaa",
+    "color": "#e6002d",
+    "logo": "/logos/nagoya-grampus.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
+  },
+  {
+    "id": "kyoto-sanga-fc",
+    "name": "京都サンガF.C.",
+    "hometown": "aaaaaaaaa",
+    "color": "#750069",
+    "logo": "/logos/kyoto-sanga-fc.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
   },
   {
     "id": "vegalta-sendai",
     "name": "ベガルタ仙台",
+    "hometown": "aaaaaaaaa",
+    "color": "#fcc800",
+    "logo": "/logos/.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
+  },
+  {
+    "id": "blaublitz-akita",
+    "name": "ブラウブリッツ秋田",
+    "hometown": "aaaaaaaaa",
+    "color": "#005bac",
+    "logo": "/logos/blaublitz-akita.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
   },
   {
     "id": "sagan-tosu",
     "name": "サガン鳥栖",
+    "hometown": "aaaaaaaaa",
+    "color": "#00a0d2",
+    "logo": "/logos/.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
+  },
+  {
+    "id": "v-varen-nagasaki",
+    "name": "Ｖ・ファーレン長崎",
+    "hometown": "aaaaaaaaa",
+    "color": "#003894",
+    "logo": "/logos/v-varen-nagasaki.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
   },
   {
     "id": "kashiwa-reysol",
     "name": "柏レイソル",
+    "hometown": "aaaaaaaaa",
+    "color": "#fff100",
+    "logo": "/logos/.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
   },
   {
     "id": "urawa-reds",
     "name": "浦和レッズ",
+    "hometown": "aaaaaaaaa",
+    "color": "#e6002d",
+    "logo": "/logos/.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
   },
   {
     "id": "shonan-bellmare",
     "name": "湘南ベルマーレ",
+    "hometown": "aaaaaaaaa",
+    "color": "#82c039",
+    "logo": "/logos/.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
   },
   {
     "id": "vissel-kobe",
     "name": "ヴィッセル神戸",
-  },
-  {
-    "id": "albirex-niigata",
-    "name": "アルビレックス新潟",
-  },
-  {
-    "id": "montedio-yamagata",
-    "name": "モンテディオ山形",
-  },
-  {
-    "id": "jef-united-chiba",
-    "name": "ジェフユナイテッド千葉",
-  },
-  {
-    "id": "roasso-kumamoto",
-    "name": "ロアッソ熊本",
-  },
-  {
-    "id": "matsumoto-yamaga",
-    "name": "松本山雅FC",
+    "hometown": "aaaaaaaaa",
+    "color": "#a9002e",
+    "logo": "/logos/.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
   },
   {
     "id": "fagiano-okayama",
     "name": "ファジアーノ岡山",
+    "hometown": "aaaaaaaaa",
+    "color": "#b6003d",
+    "logo": "/logos/fagiano-okayama.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
+  },
+  {
+    "id": "albirex-niigata",
+    "name": "アルビレックス新潟",
+    "hometown": "aaaaaaaaa",
+    "color": "#ea5504",
+    "logo": "/logos/.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
+  },
+  {
+    "id": "montedio-yamagata",
+    "name": "モンテディオ山形",
+    "hometown": "aaaaaaaaa",
+    "color": "#1a1a7c",
+    "logo": "/logos/.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
+  },
+  {
+    "id": "iwaki-fc",
+    "name": "いわきＦＣ",
+    "hometown": "aaaaaaaaa",
+    "color": "#c01830",
+    "logo": "/logos/iwaki-fc.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
+  },
+  {
+    "id": "mito-hollyhock",
+    "name": "水戸ホーリーホック",
+    "hometown": "aaaaaaaaa",
+    "color": "#005ca2",
+    "logo": "/logos/mito-hollyhock.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
+  },
+  {
+    "id": "rb-omiya-ardija",
+    "name": "ＲＢ大宮アルディージャ",
+    "hometown": "aaaaaaaaa",
+    "color": "#00164b",
+    "logo": "/logos/rb-omiya-ardija.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
+  },
+  {
+    "id": "jef-united-chiba",
+    "name": "ジェフユナイテッド千葉",
+    "hometown": "aaaaaaaaa",
+    "color": "#ffe100",
+    "logo": "/logos/.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
+  },
+  {
+    "id": "vanfornere-kofu",
+    "name": "ヴァンフォーレ甲府",
+    "hometown": "aaaaaaaaa",
+    "color": "#005bac",
+    "logo": "/logos/vanfornere-kofu.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
+  },
+  {
+    "id": "katera-toyama",
+    "name": "カターレ富山",
+    "hometown": "aaaaaaaaa",
+    "color": "#003894",
+    "logo": "/logos/katera-toyama.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
+  },
+  {
+    "id": "jubilo-iwata",
+    "name": "ジュビロ磐田",
+    "hometown": "aaaaaaaaa",
+    "color": "#6c9bd2",
+    "logo": "/logos/jubilo-iwata.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
+  },
+  {
+    "id": "fujieda-myfc",
+    "name": "藤枝ＭＹＦＣ",
+    "hometown": "aaaaaaaaa",
+    "color": "#89357c",
+    "logo": "/logos/fujieda-myfc.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
+  },
+  {
+    "id": "renofa-yamaguchi",
+    "name": "レノファ山口ＦＣ",
+    "hometown": "aaaaaaaaa",
+    "color": "#eb5e00",
+    "logo": "/logos/renofa-yamaguchi.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
+  },
+  {
+    "id": "roasso-kumamoto",
+    "name": "ロアッソ熊本",
+    "hometown": "aaaaaaaaa",
+    "color": "#b62013",
+    "logo": "/logos/.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
+  },
+  {
+    "id": "oita-trinita",
+    "name": "大分トリニータ",
+    "hometown": "aaaaaaaaa",
+    "color": "#0b318f",
+    "logo": "/logos/oita-trinita.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
+  },
+  {
+    "id": "vanraure-hachinohe",
+    "name": "ヴァンラーレ八戸",
+    "hometown": "aaaaaaaaa",
+    "color": "#00a73c",
+    "logo": "/logos/vanraure-hachinohe.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
+  },
+  {
+    "id": "fukushima-united-fc",
+    "name": "福島ユナイテッドＦＣ",
+    "hometown": "aaaaaaaaa",
+    "color": "#e60012",
+    "logo": "/logos/fukushima-united-fc.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
+  },
+  {
+    "id": "tochigi-sc",
+    "name": "栃木ＳＣ",
+    "hometown": "aaaaaaaaa",
+    "color": "#fff100",
+    "logo": "/logos/tochigi-sc.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
+  },
+  {
+    "id": "tochigi-city",
+    "name": "栃木シティ",
+    "hometown": "aaaaaaaaa",
+    "color": "#0e32",
+    "logo": "/logos/tochigi-city.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
+  },
+  {
+    "id": "zaspa-gunma",
+    "name": "ザスパ群馬",
+    "hometown": "aaaaaaaaa",
+    "color": "#002c5b",
+    "logo": "/logos/zaspa-gunma.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
+  },
+  {
+    "id": "sc-sagamihara",
+    "name": "ＳＣ相模原",
+    "hometown": "aaaaaaaaa",
+    "color": "#005250",
+    "logo": "/logos/sc-sagamihara.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
+  },
+  {
+    "id": "matsumoto-yamaga",
+    "name": "松本山雅FC",
+    "hometown": "aaaaaaaaa",
+    "color": "#008136",
+    "logo": "/logos/matsumoto-yamaga.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
+  },
+  {
+    "id": "ac-nagano-parceiro",
+    "name": "ＡＣ長野パルセイロ",
+    "hometown": "aaaaaaaaa",
+    "color": "#eb6100",
+    "logo": "/logos/ac-nagano-parceiro.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
+  },
+  {
+    "id": "fagiano-okayama",
+    "name": "ファジアーノ岡山",
+    "hometown": "aaaaaaaaa",
+    "color": "#b6003d",
+    "logo": "/logos/.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
   },
   {
     "id": "tokushima-vortis",
     "name": "徳島ヴォルティス",
+    "hometown": "aaaaaaaaa",
+    "color": "#10234f",
+    "logo": "/logos/.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
+  },
+  {
+    "id": "ehime-fc",
+    "name": "愛媛ＦＣ",
+    "hometown": "aaaaaaaaa",
+    "color": "#f39800",
+    "logo": "/logos/ehime-fc.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
+  },
+  {
+    "id": "fc-imabari",
+    "name": "ＦＣ今治",
+    "hometown": "aaaaaaaaa",
+    "color": "#003273",
+    "logo": "/logos/fc-imabari.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
   },
   {
     "id": "zweigen-kanazawa",
     "name": "ツエーゲン金沢",
+    "hometown": "aaaaaaaaa",
+    "color": "#d80c1e",
+    "logo": "/logos/zweigen-kanazawa.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
+  },
+  {
+    "id": "azul-claro-namazu",
+    "name": "アスルクラロ沼津",
+    "hometown": "aaaaaaaaa",
+    "color": "#00a0e9",
+    "logo": "/logos/azul-claro-namazu.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
+  },
+  {
+    "id": "fc-gifu",
+    "name": "ＦＣ岐阜",
+    "hometown": "aaaaaaaaa",
+    "color": "#00633d",
+    "logo": "/logos/fc-gifu.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
+  },
+  {
+    "id": "fc-osaka",
+    "name": "ＦＣ大阪",
+    "hometown": "aaaaaaaaa",
+    "color": "#7fcaf1",
+    "logo": "/logos/fc-osaka.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
+  },
+  {
+    "id": "nara-club",
+    "name": "奈良クラブ",
+    "hometown": "aaaaaaaaa",
+    "color": "#011d64",
+    "logo": "/logos/nara-club.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
+  },
+  {
+    "id": "gainare-tottori",
+    "name": "ガイナーレ鳥取",
+    "hometown": "aaaaaaaaa",
+    "color": "#6eba3d",
+    "logo": "/logos/gainare-tottori.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
+  },
+  {
+    "id": "kamatamare-sanuki",
+    "name": "カマタマーレ讃岐",
+    "hometown": "aaaaaaaaa",
+    "color": "#65aadd",
+    "logo": "/logos/kamatamare-sanuki.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
+  },
+  {
+    "id": "kochi-united-sc",
+    "name": "高知ユナイテッドＳＣ",
+    "hometown": "aaaaaaaaa",
+    "color": "#b81c22",
+    "logo": "/logos/kochi-united-sc.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
+  },
+  {
+    "id": "giravanz-kitakyushu",
+    "name": "ギラヴァンツ北九州",
+    "hometown": "aaaaaaaaa",
+    "color": "#fff100",
+    "logo": "/logos/giravanz-kitakyushu.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
+  },
+  {
+    "id": "tegevajaro-miyazaki",
+    "name": "テゲバジャーロ宮崎",
+    "hometown": "aaaaaaaaa",
+    "color": "#e62e8b",
+    "logo": "/logos/tegevajaro-miyazaki.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
+  },
+  {
+    "id": "kagoshima-united-fc",
+    "name": "鹿児島ユナイテッドＦＣ",
+    "hometown": "aaaaaaaaa",
+    "color": "#182f60",
+    "logo": "/logos/kagoshima-united-fc.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
+  },
+  {
+    "id": "fc-ryukyu",
+    "name": "ＦＣ琉球",
+    "hometown": "aaaaaaaaa",
+    "color": "#ca0915",
+    "logo": "/logos/fc-ryukyu.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
   },
   {
     "id": "fukuoka",
     "name": "アビスパ福岡",
+    "hometown": "aaaaaaaaa",
+    "color": "#001b5b",
+    "logo": "/logos/.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
+  },
+  {
+    "id": "consadole-sapporo",
+    "name": "北海道コンサドーレ札幌",
+    "hometown": "aaaaaaaaa",
+    "color": "#d70f",
+    "logo": "/logos/consadole-sapporo.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
   },
   {
     "id": "Tochigi-sca",
     "name": "栃木SC",
+    "hometown": "aaaaaaaaa",
+    "color": "#fff100",
+    "logo": "/logos/.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
   },
   {
     "id": "yamagata",
     "name": "モンテディオ山形",
-  },
-  {
-    "id": "mie",
-    "name": "FC三重",
-  },
+    "hometown": "aaaaaaaaa",
+    "color": "#1a1a7c",
+    "logo": "/logos/.png",
+    "since": 1980,
+    "stats": [
+      { "year": 2025, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2024, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2023, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2022, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2021, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2020, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2019, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2018, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 },
+      { "year": 2017, "category": "J1", "rank": 0, "win": 0, "draw": 0, "loss": 0 }
+    ]
+  }
 ]
