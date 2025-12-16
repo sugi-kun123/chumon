@@ -48,10 +48,12 @@ export default function Home() {
     <main className="p-8 max-w-6xl mx-auto min-h-screen">
       <h1 className="text-3xl font-bold mb-4">Jリーグチーム成績データベース - J-Stats</h1>
       <p className="text-gray-500 mb-8">
-        J1-3に所属するチームのリーグ成績を年度別にまとめています。<br />
-        2ステージ制は合算と最終順位で表示してます。<br />
-        クリックまたはタップして各チームの詳細を確認できます。
+        J1-3に所属するチームのリーグ成績を年度別にまとめています。クリックまたはタップして各チームの詳細を確認できます。
       </p>
+      <ul className="list-none list-inside mb-8 text-gray-500">
+        <li>* 2ステージ制は合算と最終順位で表示してます。</li>
+        <li>* データは随時更新しています。</li>
+      </ul>
       <h2 className="text-2xl font-bold mb-4">チーム一覧</h2>
 
       <div className="flex flex-col md:flex-row gap-4 mb-8">
@@ -92,7 +94,8 @@ export default function Home() {
                   style={{ backgroundColor: team.color }}
                 />
                 <h2 className="text-xl font-bold mb-1">{team.name}</h2>
-                <p className="text-gray-400 text-xs mb-4">{team.stadium}</p>
+                <p className="text-gray-400 text-xs mb-1">{team.stadium}</p>
+                <p className="text-gray-400 text-xs mb-4">{team.hometown}</p>
 
                 <div className="mt-auto pt-4 border-t border-gray-50 dark:border-zinc-800">
                   <div className="flex justify-between items-center text-sm">
