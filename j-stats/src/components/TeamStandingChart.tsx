@@ -49,10 +49,10 @@ export default function TeamStandingChart({ stats, teamColor }: Props) {
       let displayRank = s.rank;
       if (s.category === "J2") displayRank = s.rank + 22;
       if (s.category === "J3") displayRank = s.rank + 44;
-      if (s.category === "JFL" ) displayRank = s.rank = 0; // 表示しない
+      if (s.category === "JFL" ) displayRank = null; // 表示しない
 
       return { ...s, displayRank, actualRank: s.rank };
-    });
+    }).filter(s => s.displayRank !== null);
 
   return (
     <div className="w-full h-[500px] mt-8">
