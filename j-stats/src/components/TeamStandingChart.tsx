@@ -15,6 +15,33 @@ interface Props {
 }
 
 export default function TeamStandingChart({ stats, teamColor }: Props) {
+  const renderCustomDot = (props: any) => {
+    const { cx, cy, payload } = props;
+    const { actualRank, category } = payload;
+
+    if (actualRank === 1) {
+      const goldColor = '#FFD700';
+      return (
+        <g>
+          <circle cx={cx} cy={cy} r={3} fill={goldColor} stroke="red" strokeWidth={1} />
+          <text
+            x={cx}
+            y={cy - 10}
+            fill={goldColor}
+            textAnchor="middle"
+            dominantBaseline="middle"
+            style={{ fontSize: '10px', fontWeight: 'bold' }}
+          >
+            🏆
+          </text>
+        </g>
+      );
+    }
+
+    return (
+      <circle cx={cx} cy={cy} r={3} fill={teamColor} stroke="#fff" strokeWidth={1} />
+    );
+  };
   const chartData = [...stats]
     .filter(s => s.rank > 0)
     .sort((a, b) => a.year - b.year)
@@ -27,9 +54,9 @@ export default function TeamStandingChart({ stats, teamColor }: Props) {
     });
 
   return (
-    <div className="w-full h-[450px] bg-white dark:bg-zinc-950 p-6 rounded-[2rem] border border-gray-100 dark:border-zinc-800 shadow-sm">
+    <div className="w-full h-[500px] mt-8">
       <ResponsiveContainer width="100%" height="100%">
-        <LineChart data={chartData} margin={{ top: 10, right: 10, left: 0, bottom: 0 }}>
+        <LineChart data={chartData} margin={{ top: 20, right: 10, left: 10, bottom: 0 }}>
           <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#f0f0f0" />
 
           <ReferenceArea y1={1} y2={20} fill="red" fillOpacity={0.2} />
@@ -77,7 +104,7 @@ export default function TeamStandingChart({ stats, teamColor }: Props) {
             dataKey="displayRank"
             stroke={teamColor}
             strokeWidth={4}
-            dot={{ r: 5, fill: teamColor, strokeWidth: 2, stroke: '#fff' }}
+            dot={renderCustomDot}
             activeDot={{ r: 7, strokeWidth: 0 }}
             connectNulls
           />
