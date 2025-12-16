@@ -2,7 +2,7 @@
 
 Jリーグの全クラブを対象に、過去のリーグ戦順位、カップ戦成績、監督情報などを集約し、検索・フィルタリング・ソートを可能にしたデータビジュアライゼーションアプリケーションです。
 
-https://j-stats-ofxcnqdbt-sugi-kun123s-projects.vercel.app/
+https://j-stats-psi.vercel.app/
 
 ## 🚀 主な機能とハイライト
 
