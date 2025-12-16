@@ -6,6 +6,8 @@ import teamsData from "@/data/teams.json";
 import { Team } from "@/types/team";
 import Link from "next/link";
 import Footer from "@/components/Footer";
+import { House } from 'lucide-react';
+import { truncateString } from '@/utils/string';
 
 export default function Home() {
   const teams = teamsData as Team[];
@@ -17,7 +19,8 @@ export default function Home() {
     const filtered = teams.filter((team) => {
       const matchesSearch =
         team.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        team.stadium.toLowerCase().includes(searchTerm.toLowerCase());
+        team.stadium.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        team.hometown.toLowerCase().includes(searchTerm.toLowerCase());
 
       const latestCategory = team.stats[0]?.category;
       const matchesCategory = filterCategory === "All" || latestCategory === filterCategory;
@@ -94,9 +97,13 @@ export default function Home() {
                   style={{ backgroundColor: team.color }}
                 />
                 <h2 className="text-xl font-bold mb-1">{team.name}</h2>
-                <p className="text-gray-400 text-xs mb-1">{team.stadium}</p>
-                <p className="text-gray-400 text-xs mb-4">{team.hometown}</p>
-
+                <div className="flex items-center text-sm text-gray-400 mb-4">
+                  <House className="inline mr-2" size={10} />
+                  <div className="inline-block align-middle">
+                    <p className="text-gray-400 text-xs mb-1">{truncateString(team.stadium, 15)}</p>
+                    <p className="text-gray-400 text-xs">{truncateString(team.hometown, 15)}</p>
+                  </div>
+                </div>
                 <div className="mt-auto pt-4 border-t border-gray-50 dark:border-zinc-800">
                   <div className="flex justify-between items-center text-sm">
                     <span className="text-gray-500">{team.stats[0]?.category} 順位</span>
