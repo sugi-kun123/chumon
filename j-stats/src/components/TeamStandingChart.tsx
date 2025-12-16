@@ -49,6 +49,7 @@ export default function TeamStandingChart({ stats, teamColor }: Props) {
       let displayRank = s.rank;
       if (s.category === "J2") displayRank = s.rank + 22;
       if (s.category === "J3") displayRank = s.rank + 44;
+      if (s.category === "JFL" ) displayRank = s.rank = 0; // 表示しない
 
       return { ...s, displayRank, actualRank: s.rank };
     });

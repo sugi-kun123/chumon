@@ -6,13 +6,13 @@ export interface SeasonStats {
   win: number;
   draw: number;
   loss: number;
+  coach: string;
 }
 
 export interface Team {
   id: string;
   name: string;
   stadium: string;
-  coach: string;
   color: string;
   logo: string;
   since: number;
